@@ -29,7 +29,7 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="achievements" className="bg-gray-50 py-16">
+    <section id="achievements" className="bg-gradient-to-br from-purple-500 via-purple-500 to-red-500 py-16 ">
       <div className="container mx-auto px-6 md:px-12 lg:px-16">
         <h2 className="text-3xl font-bold text-center mb-8">
           <span className="text-yellow-500">Achievements</span>
@@ -38,13 +38,13 @@ const Achievements = () => {
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-md p-6 hover:shadow-lg transition-all duration-300"
+              className="bg-white/70 shadow-md rounded-md p-6 hover:shadow-lg transition-all duration-300"
             >
               <h3 className="text-xl font-semibold text-gray-900">
                 {achievement.title}
               </h3>
-              <p className="text-yellow-500 font-medium">{achievement.year}</p>
-              <p className="mt-4 text-gray-700">{achievement.description}</p>
+              <p className="text-yellow-900/80 font-medium">{achievement.year}</p>
+              <p className="mt-4 text-gray-800">{achievement.description}</p>
             </div>
           ))}
         </div>

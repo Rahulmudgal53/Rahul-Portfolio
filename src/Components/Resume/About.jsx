@@ -29,8 +29,8 @@ const About = () => {
             {showMore && (
               <p className="text-gray-700 mt-4">
                 My journey in development started during college, where I discovered my love for solving real-world 
-                problems using technology. I’ve participated in multiple hackathons, winning accolades like the Flipkart 
-                Grid 5.0 and the GFG Great India Hackathon. I thrive in collaborative environments and enjoy taking on 
+                problems using technology. I’ve participated in multiple hackathons, winning accolades like the  
+                SIH and the GFG Great India Hackathon. I thrive in collaborative environments and enjoy taking on 
                 challenges that push me to learn and grow.
               </p>
             )}

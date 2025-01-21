@@ -15,6 +15,7 @@ const Footer = () => {
             className="hover:text-yellow-500"
           >
             LinkedIn
+              
           </a>
           <a
             href="https://github.com/Rahulmudgal53/readMe"
