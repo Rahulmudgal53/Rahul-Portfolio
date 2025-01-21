@@ -37,7 +37,7 @@ const DownloadButton = () => {
   };
 
   return (
-    <div className='flex flex-row justify-center pt-80'>
+    <div className='f'>
         <button
       onClick={handleDownload}
       style={{
@@ -49,7 +49,7 @@ const DownloadButton = () => {
         cursor: 'pointer',
       }}
     >
-      Download PDF
+      Download Resume
     </button>
     </div>
   );

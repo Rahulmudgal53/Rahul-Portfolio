@@ -1,5 +1,5 @@
 import React from "react";
-
+import ResumeBtn from './DownloadPdf'
 const Home = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-6 md:px-12 lg:px-16 text-center">
@@ -11,6 +11,7 @@ const Home = () => {
             <div className="flex space-x-4 mt-6">
         <a href="#contact" className="px-6 py-3 bg-yellow-500 rounded-md text-black font-semibold">Hire Me</a>
         <a href="#contact" className="px-6 py-3 bg-gray-700 rounded-md hover:bg-gray-600">Let's Talk</a>
+        <ResumeBtn/>
       </div>
     </section>
   );
